@@ -7,5 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Mobile extends Model
 {
-    use HasFactory;
+    protected $fillable = [
+        'title',
+        'mobileinformation',
+    ];
 }
